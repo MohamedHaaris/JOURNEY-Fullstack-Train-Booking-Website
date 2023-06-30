@@ -1,0 +1,201 @@
+.train-container {
+  width: 60rem;
+  height: 15rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+
+.train-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+.train-box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55rem;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.dept-time,
+.arr-time {
+  font-weight: bold;
+}
+.travel-tim {
+  color: gray;
+  font-size: small;
+}
+.train-box-2 {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  justify-content: space-between;
+  width: 55rem;
+}
+.train-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.route {
+  color: rgb(47, 47, 167);
+}
+.train-num,
+.dept-des,
+.arr-des,
+.route {
+  font-size: small;
+}
+
+.train-num {
+  color: gray;
+}
+
+.train-content-box1 {
+  margin-top: 10px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  height: 120px;
+  border-radius: 10px;
+  gap: 5px;
+}
+.tatkal {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 2px 5px;
+  font-size: 10px;
+}
+.text-box-tatkal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.box1 {
+  display: flex;
+  gap: 15px;
+  font-weight: bold;
+  justify-content: space-between;
+  width: 220px;
+  align-items: center;
+}
+.box2 {
+  color: green;
+}
+.hours {
+  color: gray;
+}
+
+.checkbox-container {
+  margin-bottom: 12px;
+}
+
+.checkbox-container label {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#checkbox {
+  width: 18px;
+  height: 18px;
+}
+.filterzz {
+  width: 275px;
+}
+.train-filte {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.checkbox-container {
+  margin-top: 10px;
+}
+.jeeva {
+  border: none;
+  background: white;
+  text-align: left;
+  font-size: 13px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.nav-links img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.profile,
+.about {
+  margin-left: 150px;
+}
+
+.profile a,
+.about a {
+  text-decoration: none;
+  color: #333;
+}
+
+.topbar-design {
+  border: none;
+  background-color: #fff;
+}
+.icons {
+  font-size: 35px;
+}
+
+/* .edit {
+
+ }
+   */
+.remove {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+/* .profiles{
+  display: flex;
+  align-items: center;
+} */

@@ -1,0 +1,313 @@
+/* .heading{
+    font-size: 20px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 20px 0; 
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #2a2a2b;
+    box-sizing: border-box;
+}
+.getfree{
+    font: 20px lato;
+    font-weight: bold;
+    
+}
+
+.names{
+    font-size: 15px;
+    line-height: 14px;
+    color: var(--color-primary, #008cff);
+    cursor: pointer;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    left:10rem;
+    
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+  }
+  .form{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 100px;
+   
+    
+  }  */
+
+
+  .passenger-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 160px;
+  }
+  .pricediv{
+    display: flex;
+    gap: 5rem;
+    padding: 10px;
+    justify-content: space-around;
+    /* position: fixed; */
+
+  }
+
+  
+  
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .fonting input,
+  select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #070707;
+  }
+  
+  .form-group button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fonting input{
+    padding: 12px 20px;
+    border: 1px solid #707078;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #141823;
+    font-weight: bold;
+    outline: none;
+    margin: 10px 0px 0px;
+    width: 500px;
+      
+  }
+
+  .fonting select{
+    padding: 12px 20px;
+    border: 1px solid #707078;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #141823;
+    font-weight: bold;
+    outline: none; 
+    margin: 10px 0px 0px;
+    width: 500px;
+  }
+   .passbutton{
+    outline: 0;
+    border: 0;
+    opacity: .9;
+    display: inline-block;
+    background-image: linear-gradient(96deg,#53b2fe,#065af3);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .stopbutton{ 
+   outline: 0;
+    border: 0;
+    opacity: .9;
+    display: inline-block;
+    background-image: linear-gradient(96deg,#e44545,#b30b0b);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer; 
+    width: 104px;
+    height: 36px;
+    padding: 9px;
+    border-radius: 96px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #008cff;
+    color:#008cff ;
+  }
+  .passlex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading{
+    font-size: 20px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 20px 0; 
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2a2a2b;
+    box-sizing: border-box; 
+  } 
+  .addings{
+    font-size: 30px;
+    
+    color: var(--color-primary, #008cff);
+    cursor: pointer;
+  }
+  .passenger-details-container{
+    margin-right: 500px;
+  }
+
+  .ticket-container {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .ticket-border {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .ticket-border p {
+    margin: 10px 0px;
+  }
+
+  .fontings{
+    border-radius: 4px;
+    background-image: linear-gradient(94deg,#53b2fe,#065af3);
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,.2);
+    padding: 8px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .topprice{
+    display: flex;
+    align-items: start;
+  }
+
+
+  .radio-containers {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .radio-containers label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .radio-containers input[type='radio'] {
+    margin-right: 15px;
+  }
+  
+
+  .radio-containers input[type="radio"] {
+  margin-left:160px;
+  width: 20px;
+  height: 20px;
+  } 
+  .boldpass{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: 160px;
+  }
+  .boldpasses{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 160px;
+  }
+  #movebox{
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  #green{
+    color: green;
+  }
+  .cancelbox{
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(138,107,118,.08);
+    border: 1px solid #bababa;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 500px;
+  }
+  .hi{
+    
+      margin-bottom: 20px;
+      margin-top: 20px;
+      font-size: 15px;
+    
+  }
+  
+   .hi {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hi input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+  
+  .hi label {
+    margin-right: 10px;
+  }
+
+  .passflex{
+    display: flex;
+    justify-content:center;
+    padding-right: 100px;
+    left: 10rem;
+    gap: 10px;
+  }
+   
+   
+   .profiles{
+    border: none;
+    background-color: #fff;
+    justify-content:flex-end;
+    gap: 10px;
+    font-size: 17px;
+   }
+   .train-content-box11{
+    margin-top: 10px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  height: 120px;
+  border-radius: 10px;
+  gap: 5px;
+  width: 17rem;
+   }

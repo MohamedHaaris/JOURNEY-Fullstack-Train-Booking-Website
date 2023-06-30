@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.whole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+.container{
+    cursor: pointer;
+   
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+   
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    
+}
+a{
+     text-decoration: none;
+     font-size: 1.1rem;
+     color:black;
+     transition:0ms.1s ease-in-out;
+     
+     
+}
+
+.signin{
+    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3));
+    border: 0;
+    border-radius: 4px;
+    height: 42px;
+    margin-right: 0;
+    width: 213px;
+    color: white    ;
+    padding: 5px 10px ;
+    font: 12px Lato,sans-serif;
+   
+
+    
+}
+
+.design{
+    padding: 0.2rem 1rem;
+    cursor:pointer;
+    border: none;
+    color:black;
+    background-color:#ffffff;
+    padding-top: 2px;
+    font-size: 14px;
+    border-bottom: 5px solid transparent;
+   
+}
+.icon
+{
+    font-size: 40px;
+}
+.design:focus
+{
+    color:#53b2fe;
+    border-bottom: 3px solid #53b2fe;
+    
+}
+
+
+img
+{
+    vertical-align:middle;
+    
+}
+
+.nav-links li 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+.nav-links
+{
+    display: flex;
+    gap: 40px;
+}
+
+
+.gap{
+    
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 2px 2px 2px;
+    padding-top: 10px;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,.4);
+    display: block;
+    align-items:center;
+    display: flex;
+    width:650px;
+    margin-left: 420px;
+    margin-bottom:-30px;
+    margin-top:110px;
+    z-index: 9999;
+    position:relative;
+    
+    
+
+    
+}
+
+/* home */
+.search{
+     /* display: flex;  
+    background-color: #ffff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 300px;
+    width: 1000px;
+    margin-top: -110px;
+
+    margin-left:250px;
+    align-items: center;
+     border-radius: 15px;  */
+     
+     width: 1200px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+    border-radius: 20px;
+    padding: 80px 60px 50px ;
+    margin: 0 auto;
+   
+    
+    
+
+     
+     
+     /* width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    z-index: 10;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 60px 20px 0; */
+}
+.containeer{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+    justify-content: space-around;
+    width: 1000px;
+    
+    
+    
+
+
+ }
+ .input-top
+ {
+    display: flex;
+    flex-direction: column;
+ }
+ .input-box
+ {
+    border-radius: 10px;
+    margin: 10px;
+
+ }
+ .label{
+    font-size: 1.1rem;
+    color:#03045e;
+ }
+ .input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+    
+ }
+ .search-button
+{
+    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3));
+    padding: 15px ;
+    border-radius: 25px;
+    border: none;
+    margin-top: -50px;
+    width: 250px;
+    color: white;
+    font: 24px Lato,sans-serif;
+    margin-left:640px;
+    z-index: 9999;
+    position: relative;
+}
+.gradient{
+    
+        background-image: linear-gradient(to bottom, #051322, #15457c);
+        height: 600px;
+        
+}
+.irctc {
+   font-size: large;
+   padding-left: 775px;
+    margin-top: -290px;
+   top: 55px;
+   display: block;
+   color: black;
+    
+    font: 25px Lato,sans-serif;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+   
+    
+    
+    
+   font: bolder;
+
+    
+}
+.input-box
+{
+    padding: 30px;
+    border:1px solid rgb(5, 5, 5);
+    margin-top: 10px;
+
+}
+
+input::placeholder
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+
+
+.million{
+    text-align: center;
+    font: 30px quicksand;
+    color: #141823;
+}
+.desc{
+   text-align: center;
+   font: 24px "helvetica neue";
+}
+.fee{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.matter{
+    display: flex;
+    justify-content: space-around;
+    font: 22px "helvetica neue";
+    align-items: center;
+}
+.threelogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.para{
+display: flex;
+justify-content:space-around;
+
+}
+
+
+.totaly{
+    
+    padding: 70px 70px;
+    background: #E7E7E7;
+}
+
+.p1{
+    padding: 10px 80px 40px 0px;
+    font: 15px Lato,sans serif;
+}
+.p2{
+    padding: 10px 80px 40px 0px;
+    font: 15px Lato,sans serif;
+}
+
+table{
+    border-collapse:collapse;
+    max-width: 1000px;
+    width: 100%;
+    margin: 3rem auto;
+
+
+    
+}
+
+table th, table td{
+    border:1px solid rgb(222, 215, 215);
+    padding: 15px;
+    
+}
+
+.box{
+   
+    border: 40px solid #cbe5fa;
+    border-radius: 12px;
+    margin-top: 30px;
+    
+
+}
+
+.adjust{
+    text-align: center;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    color: #000;
+}
+
+.coupon{
+    text-align: center;
+    font: 30px Lato,sans serif;
+}
+.nofee{
+    margin: 0px 10px 16px 0px;
+   
+    height: 12rem;
+    background: #ffffffff;
+    box-shadow: 5px 5px  #cbe5fa;
+    
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.boxes{
+display: flex;
+justify-content:space-evenly;
+
+
+}
+
+
+.nofee
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 30px;
+
+
+}
+.text-content
+{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.offer
+{
+    border: 1.6px dotted black;
+    background-color:#cbe5fa;
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dir{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 520px;
+    margin-top: 0px;
+    z-index: 1;
+}
+.love{
+    font-family: Quicksand, Avenir, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    
+    font-weight: 700;
+    color:black;
+    position: absolute;
+    padding: 0px 4px;
+    top: 370px;
+    margin-left: 25px;
+    
+    background-color: rgb(255, 255, 255);
+}
+.pnrstatus{
+   
+   padding-left: 210px;
+    margin-top: -20px;
+   top: 50px;
+   display: block;
+   color: black;
+    font: 22px Lato,sans-serif;
+    display: flex;
+    gap: 10px;
+    
+    
+    
+}
+
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+  }
+  .footer-column li:hover{
+    color: #008CFF;
+  }
+
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 5px;
+  }
+  
+  .payment-details {
+    margin-top: 20px;
+  }
+  
+  .payment-details h4 {
+    font-size: 16px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  .trip{
+    font-size: 18px;
+  }
+  
+  input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

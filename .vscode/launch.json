@@ -1,0 +1,17 @@
+{
+    "version": "18.0.1.1",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Spring Boot-Springcredoperation1Application<Springcredoperation1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.Springcredoperation1Application",
+            "projectName": "Springcredoperation1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

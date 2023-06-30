@@ -1,0 +1,54 @@
+.flex1{
+    display: flex;
+    gap: 6rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.fontinged{
+    display: flex;
+    flex-direction: column;
+}
+.putdiv{
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 100px 0 rgba(0,0,0,.4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 90px;
+   
+   
+}
+.putdiv  input[type="text"],
+.putdiv input[type="number"]
+.putdiv input[type="password"]{
+    width: 25.5rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    justify-content: center;
+}
+.putbutton {
+    background-image: var(--color-btn-primary-bg,linear-gradient(93deg,#53b2fe,#065af3));
+    padding: 15px ;
+    border-radius: 30px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font: 24px Lato,sans-serif;
+   margin-left: 585px;
+   
+   
+}
+.putheading{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
